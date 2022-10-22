@@ -1,0 +1,16 @@
+.bodyPage01 {
+    display: grid;
+    grid-template-columns: 1fr 5rem;
+    gap: 1px;
+}
+
+.carousel {
+    display: block;
+    width: 50%;
+    padding: 1.875rem;
+    margin: 0 auto;  
+}
+
+.logo {
+    height: 5rem;
+}
