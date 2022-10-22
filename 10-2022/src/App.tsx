@@ -1,6 +1,7 @@
+import { Home } from './components/home'
 
 export function App() {
   return (
-    <p>oi</p>
+    <Home />
   )
 }
