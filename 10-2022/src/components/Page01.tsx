@@ -6,7 +6,9 @@ export function Page01() {
     return (
         <div className={styles.bodyPage01}>
             <div className={styles.mainImage}>
-                
+                <video autoPlay loop className={styles.video}>
+                    <source src='./src/img/main-video.mp4' type='video/mp4'/> 
+                </video>
             </div>
             <div className={styles.carousel}>
                 <h4>React-Bootstrap Carousel Component</h4>

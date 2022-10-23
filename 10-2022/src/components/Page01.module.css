@@ -6,6 +6,18 @@
 }
 
 .mainImage {
-    height: 800px;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('./src/img/carrossel/');
+    height: 500px;
+}
+
+.video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background: url(./src/img/carrossel/pacotes-1.jpg) no-repeat;
+    background-size: cover;
 }
