@@ -5,6 +5,9 @@ import styles from './Page01.module.css'
 export function Page01() {
     return (
         <div className={styles.bodyPage01}>
+            <div className={styles.mainImage}>
+                
+            </div>
             <div className={styles.carousel}>
                 <h4>React-Bootstrap Carousel Component</h4>
                 <Carousel pause="hover">
@@ -43,11 +46,6 @@ export function Page01() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <img 
-                className={styles.logo}
-                src="./src/img/arkhi-design.png" 
-                alt="arquitetura" 
-            />
             <p>
                 Somos a equipe RC Arkhi Design, uma empresa voltada em projetos de design de interiores, podendo elaborar móveis planejados, iluminação e decoração de ambientes.
                 Nosso time é composto por dois fundadores e integrantes: Christian Figueiredo, formado no curso Técnico de Edificações – que, inclusive, dá aula de Sketchup e Vray - e Raíssa de Sá, também formada em Edificações.
