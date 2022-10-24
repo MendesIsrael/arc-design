@@ -8,15 +8,14 @@ export function Page01() {
     return (
         <div className={styles.bodyPage01}>
             <nav>
-                <ul>
                     <li><a href="#">home</a></li>
                     <li><a href="#">serviço</a></li>
                     <li><a href="#">sobre</a></li>
                     <li><a href="#">departamento</a></li>
                     <li><a href="#">contato</a></li>
-                </ul>
             </nav>
             <div className={styles.mainImage}>
+                <img src="./src/img/arkhi-design.png" alt="arkhi design" />
                 <video src="./src/img/main-video.mp4" autoPlay loop muted/>
                 <h1>Para o seu Empreendimento</h1>
                 <h3>Experiencias visuais</h3>

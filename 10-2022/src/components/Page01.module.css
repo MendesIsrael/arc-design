@@ -1,12 +1,10 @@
 nav {
     justify-content: center;
     align-items: center;
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgba(0, 0, 0, 0.452);
+    height: 3rem;
+    width: 1fr;
+    display: flex;  
 }
 
 nav li {
@@ -16,8 +14,9 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
-    border: 1px solid black;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0 7px;
     border-radius: 5px;
     padding: 5px;
 }
@@ -27,6 +26,12 @@ nav a {
     top: 0;
     z-index: -10;
     min-width: 100%;
+}
+
+.mainImage img {
+    position: absolute;
+    height: 40px;
+    margin-top: 5px;
 }
 
 .mainImage video {
