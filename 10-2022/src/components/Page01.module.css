@@ -1,35 +1,36 @@
 nav {
-    background: blue;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 nav ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav li {
     list-style: none;
-    padding: 8px;
-    margin: 0 5px;
     display: flex;
-    background: red;
 }
 
 nav a {
     text-decoration: none;
-
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .mainImage {
-    height: 38rem;
-    background: black;
-    display: grid;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    min-width: 100%;
 }
 
-.mainImage h1 {
-    padding-top: 15%;
+.mainImage video {
+min-width: 100%;
 }
 
 .carousel {
@@ -39,3 +40,6 @@ nav a {
     margin: 0 auto;  
 }
 
+.text {
+    width: 20rem;
+}
