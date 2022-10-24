@@ -7,10 +7,20 @@ import styles from './Page01.module.css'
 export function Page01() {
     return (
         <div className={styles.bodyPage01}>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">serviço</a></li>
+                        <li><a href="#">sobre</a></li>
+                        <li><a href="#">departamento</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div className={styles.mainImage}>
-                <video autoPlay loop controls className={styles.video}>
-                    <source src='./src/img/main-video.mp4' type='video/mp4'/> 
-                </video>
+                <h1>Para o seu Empreendimento</h1>
+                <h3>Experiencias visuais</h3>
             </div>
             <div>
                 <h1>
