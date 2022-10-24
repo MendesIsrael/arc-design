@@ -2,13 +2,24 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { Carousel } from 'react-bootstrap'
 import styles from './Page01.module.css'
 
+
+
 export function Page01() {
     return (
         <div className={styles.bodyPage01}>
             <div className={styles.mainImage}>
-                <video autoPlay loop className={styles.video}>
+                <video autoPlay loop controls className={styles.video}>
                     <source src='./src/img/main-video.mp4' type='video/mp4'/> 
                 </video>
+            </div>
+            <div>
+                <h1>
+                    Sobre nós:
+                </h1>
+                <p>
+                    Somos a equipe RC Arkhi Design, uma empresa voltada em projetos de design de interiores, podendo elaborar móveis planejados, iluminação e decoração de ambientes.
+                    Nosso time é composto por dois fundadores e integrantes: Christian Figueiredo, formado no curso Técnico de Edificações – que, inclusive, dá aula de Sketchup e Vray - e Raíssa de Sá, também formada em Edificações.
+                </p>
             </div>
             <div className={styles.carousel}>
                 <h4>React-Bootstrap Carousel Component</h4>
@@ -48,10 +59,6 @@ export function Page01() {
                     </Carousel.Item>
                 </Carousel>
             </div>
-            <p>
-                Somos a equipe RC Arkhi Design, uma empresa voltada em projetos de design de interiores, podendo elaborar móveis planejados, iluminação e decoração de ambientes.
-                Nosso time é composto por dois fundadores e integrantes: Christian Figueiredo, formado no curso Técnico de Edificações – que, inclusive, dá aula de Sketchup e Vray - e Raíssa de Sá, também formada em Edificações.
-            </p>
         </div>
     )
 }
