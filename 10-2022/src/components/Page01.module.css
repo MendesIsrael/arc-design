@@ -20,12 +20,13 @@ nav a {
     border-radius: 5px;
     padding: 5px;
 }
-
+/*-----header-----------------------------------------------------------------------*/
 .mainImage {
     position: absolute;
     top: 0;
     z-index: -10;
     min-width: 100%;
+    height: 400px;
 }
 
 .mainImage img {
@@ -38,13 +39,10 @@ nav a {
 min-width: 100%;
 }
 
+/*-----carousel-----------------------------------------------------------------------*/
 .carousel {
     display: block;
     width: 50%;
     padding: 1.875rem;
     margin: 0 auto;  
-}
-
-.text {
-    width: 20rem;
 }

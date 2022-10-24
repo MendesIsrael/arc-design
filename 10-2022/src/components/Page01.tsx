@@ -17,20 +17,8 @@ export function Page01() {
             <div className={styles.mainImage}>
                 <img src="./src/img/arkhi-design.png" alt="arkhi design" />
                 <video src="./src/img/main-video.mp4" autoPlay loop muted/>
-                <h1>Para o seu Empreendimento</h1>
-                <h3>Experiencias visuais</h3>
-            </div>
-            <div className={styles.text}>
-                <h1>
-                    Sobre nós:
-                </h1>
-                <p>
-                    Somos a equipe RC Arkhi Design, uma empresa voltada em projetos de design de interiores, podendo elaborar móveis planejados, iluminação e decoração de ambientes.
-                    Nosso time é composto por dois fundadores e integrantes: Christian Figueiredo, formado no curso Técnico de Edificações – que, inclusive, dá aula de Sketchup e Vray - e Raíssa de Sá, também formada em Edificações.
-                </p>
             </div>
             <div className={styles.carousel}>
-                <h4>React-Bootstrap Carousel Component</h4>
                 <Carousel pause="hover">
                     <Carousel.Item interval={1000}>
                         <img 
