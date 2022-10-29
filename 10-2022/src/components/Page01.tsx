@@ -9,7 +9,7 @@ export function Page01() {
             <nav>
                     <li><a href="#">home</a></li>
                     <li><a href="#">serviço</a></li>
-                    <li><a href="#">sobre</a></li>
+                    <li><a href="./src/components/Sobre.tsx">sobre</a></li>
                     <li><a href="https://linkr.bio/rcarkhidesign" target="_blank">contato</a></li>
             </nav>
             <div className={styles.mainImage}>
