@@ -1,3 +1,6 @@
+section {
+    background: white;
+}
 .mainImage {
     height: 35rem;
     display: flex;
