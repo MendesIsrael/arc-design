@@ -1,0 +1,36 @@
+.mainImage {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+}
+
+.mainImage video {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*-----carousel-----------------------------------------------------------------------*/
+.carousel {
+    display: block;
+    width: 50%;
+    padding: 1.875rem;
+    margin: 0 auto;  
+}
+
+picture {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    @media (max-width:400px)
+        {
+            display: block;
+            width: 100%;
+        }
+}
+
+picture img {
+    height: 20rem;
+    margin: 15px;
+}

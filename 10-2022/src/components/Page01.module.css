@@ -52,13 +52,6 @@ nav a:hover {
     display: flex;
 }
 
-.mainImage img {
-    position: absolute;
-    height: 40px;
-    margin-top: 5px;
-    z-index: 1;
-}
-
 .mainImage video {
     min-width: 100%;
     height: 100%;
@@ -79,28 +72,4 @@ nav a:hover {
     margin-left: 2rem;
     font-size: 2rem;
     color: rgb(0, 0, 0);
-}
-
-/*-----carousel-----------------------------------------------------------------------*/
-.carousel {
-    display: block;
-    width: 50%;
-    padding: 1.875rem;
-    margin: 0 auto;  
-}
-
-picture {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-
-    @media (max-width:400px){
-            display: block;
-            width: 100%;
-    }
-}
-
-picture img {
-    height: 20rem;
-    margin: 15px;
 }

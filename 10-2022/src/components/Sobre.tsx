@@ -1,10 +1,10 @@
 import styles from './Sobre.module.css'
 
-export default function Sobre() {
+export function Sobre() {
   return (
     <section>
       <div className={styles.mainImage}>
-        <video src="./src/img/video.mp4" autoPlay loop muted preload='./src/img/arkhi-design.png'></video>
+        <video src="./src/img/video-sobre.mp4" autoPlay loop muted preload='./src/img/arkhi-design.png'></video>
       </div>
       <div className={styles.text}>
         <h1>
@@ -28,6 +28,10 @@ export default function Sobre() {
           Nosso atendimento é 100% online. Em caso de dúvidas e interesses, basta nos mandar mensagem pelo e-mail, que está em nosso perfil, ou pelo direct do Instagram.
         </p>
     </div>
+    <p>
+          Onde entrar em contato?
+          Nosso atendimento é 100% online. Em caso de dúvidas e interesses, basta nos mandar mensagem pelo e-mail, que está em nosso perfil, ou pelo direct do Instagram.
+        </p>
   </section>
   )
 }
