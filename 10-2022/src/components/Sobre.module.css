@@ -1,0 +1,12 @@
+.mainImage {
+    height: 23rem;
+    background: rgba(224, 55, 70, 0.644);
+    display: flex;
+    justify-content: center;
+}
+
+.mainImage video {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
