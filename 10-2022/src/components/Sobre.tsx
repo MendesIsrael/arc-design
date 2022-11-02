@@ -2,7 +2,7 @@ import styles from './Sobre.module.css'
 
 export function Sobre() {
   return (
-    <section>
+    <section className={styles.bodySobre}>
       <div className={styles.mainImage}>
         <video src="./src/img/video-sobre.mp4" autoPlay loop muted preload='./src/img/arkhi-design.png'></video>
       </div>
@@ -15,7 +15,7 @@ export function Sobre() {
           Nosso time é composto por dois fundadores e integrantes: Christian Figueiredo, formado no curso Técnico de Edificações – que, inclusive, dá aula de Sketchup e Vray - e Raíssa de Sá, também formada em Edificações.
         </p>
         <p>
-          Como realizamos nossos projetos?
+          <strong>Como realizamos nossos projetos?</strong><br />
           Com conhecimentos adequados de materiais, fornecedores e de todo sistema necessário, iremos assegurar o bom gerenciamento de seu projeto, tendo espaços usados de forma pensada para trazerem o bom aproveitamento e a funcionabilidade, portanto não esquecendo da beleza do ambiente. Ah, e vale ressaltar que tudo isso será planejado, executado e devolvido dentro do prazo prometido.
           Existem 4 pilares para a confecção dos projetos:
           1° Reunião com o Cliente - Para que os profissionais entendam seus desejos e necessidades;
@@ -24,12 +24,12 @@ export function Sobre() {
           4° Devolução do projeto – É a ultima etapa, na qual os clientes recebem todo o projeto, que pode compor: Plantas, planilhas, memoriais descritivos, imagens e vídeos do projeto 3d.
         </p>
         <p>
-          Onde entrar em contato?
+          <strong>Onde entrar em contato?</strong><br />
           Nosso atendimento é 100% online. Em caso de dúvidas e interesses, basta nos mandar mensagem pelo e-mail, que está em nosso perfil, ou pelo direct do Instagram.
         </p>
     </div>
     <p>
-          Onde entrar em contato?
+          Onde entrar em contato?<br />
           Nosso atendimento é 100% online. Em caso de dúvidas e interesses, basta nos mandar mensagem pelo e-mail, que está em nosso perfil, ou pelo direct do Instagram.
         </p>
   </section>

@@ -9,21 +9,21 @@ export function Page01() {
                 <p>Experiencias visuais</p> 
                 <h1>Para o seu empreendimento</h1>
             </div>
+            <div className={styles.feed}>
+                <div className={styles.feedImg}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div><div className={styles.feedImg}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+            </div>
             <div className={styles.picture}>
-                <picture>
-                    <img src="./src/img/02.png" alt="" />
-                    <img src="./src/img/01.jpg" alt="" />
-                    <img src="./src/img/03.jpg" alt="" />
-                </picture>
-                <picture>
-                    <img src="./src/img/08.png" alt="" />
-                    <img src="./src/img/04.jpg" alt="" />
-                    <img src="./src/img/06.png" alt="" />
-                </picture>
-                <picture>
-                    <img src="./src/img/05.jpg" alt="" />
-                    <img src="./src/img/07.png" alt="" />
-                </picture>
+                
             </div>
             <p>
                 Onde entrar em contato?
@@ -32,3 +32,18 @@ export function Page01() {
         </div>
     )
 }
+
+//<picture>
+//    <img src="./src/img/02.png" alt="" />
+//    <img src="./src/img/01.jpg" alt="" />
+//    <img src="./src/img/03.jpg" alt="" />
+//</picture>
+//<picture>
+//    <img src="./src/img/08.png" alt="" />
+//    <img src="./src/img/04.jpg" alt="" />
+//    <img src="./src/img/06.png" alt="" />
+//</picture>
+//<picture>
+//    <img src="./src/img/05.jpg" alt="" />
+//    <img src="./src/img/07.png" alt="" />
+//</picture>
