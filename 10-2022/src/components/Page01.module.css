@@ -62,12 +62,27 @@ nav a:hover {
     color: rgb(0, 0, 0);
 }
 
-.feedImg {
+.feedImg1, .feedImg2, .feedImg3, .feedImg4, .feedImg5, .feedImg6, .feedImg7, .feedImg8 {
     height: 35rem;
-    background-image: url('./src/img/05.jpg');
     background-position: center center;
     background-attachment: fixed;
 }
+
+.feedImg1 {background-image: url('./src/img/01.jpg');}
+
+.feedImg2 {background-image: url('./src/img/02.png');}
+
+.feedImg3 {background-image: url('./src/img/03.jpg');}
+
+.feedImg4 {background-image: url('./src/img/04.jpg');}
+
+.feedImg5 {background-image: url('./src/img/05.jpg');}
+
+.feedImg6 {background-image: url('./src/img/06.png');}
+
+.feedImg7 {background-image: url('./src/img/05.jpg');}
+
+.feedImg8 {background-image: url('./src/img/05.jpg');}
 
 .feedText {
     height: 16rem;

@@ -10,14 +10,38 @@ export function Page01() {
                 <h1>Para o seu empreendimento</h1>
             </div>
             <div className={styles.feed}>
-                <div className={styles.feedImg}></div>
+            <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg1}></div>
                 <div className={styles.feedText}>
                     gfhjgyukuykjgykjg
                 </div>
-                <div className={styles.feedImg}></div>
+                <div className={styles.feedImg2}></div>
                 <div className={styles.feedText}>
                     gfhjgyukuykjgykjg
-                </div><div className={styles.feedImg}></div>
+                </div>
+                <div className={styles.feedImg3}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg4}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg5}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg6}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg7}></div>
+                <div className={styles.feedText}>
+                    gfhjgyukuykjgykjg
+                </div>
+                <div className={styles.feedImg8}></div>
                 <div className={styles.feedText}>
                     gfhjgyukuykjgykjg
                 </div>
